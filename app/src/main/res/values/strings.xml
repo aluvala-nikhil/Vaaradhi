@@ -1,0 +1,21 @@
+<resources>
+        <string name="app_name">Vaaradhi</string>
+        <string name="web_client_id">434998638605-tkaelhdo6f64u7j5b1afphjapkbt6eo8.apps.googleusercontent.com</string>
+        <string name="title_activity_login"/>
+        <string name="title_activity_register" />
+        <array name="Location">
+                <item>Bellandur</item>
+                <item>Kashavanhalli</item>
+                <item>Electronic City</item>
+        </array>
+        <array name="WorkType">
+                <item>Ploughing</item>
+                <item>Seed Sowing</item>
+                <item>Tender removal</item>
+                <item>Spraying</item>
+        </array>
+        <array name="Role">
+                <item>OWNER</item>
+                <item>WORKER</item>
+        </array>
+</resources>

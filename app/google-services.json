@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "434998638605",
+    "project_id": "luvphoto-d1a63",
+    "storage_bucket": "luvphoto-d1a63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434998638605:android:ef2e42660b06550a7c7d44",
+        "android_client_info": {
+          "package_name": "com.example.luvphoto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434998638605-tkaelhdo6f64u7j5b1afphjapkbt6eo8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAzLh4Ifgphq1Jd0c03j4tr1F_VfAHb8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "434998638605-tkaelhdo6f64u7j5b1afphjapkbt6eo8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
