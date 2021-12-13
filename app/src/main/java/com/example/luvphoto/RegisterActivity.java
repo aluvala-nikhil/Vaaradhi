@@ -60,6 +60,7 @@ public class RegisterActivity extends AppCompatActivity {
         String Name = rtName.getText().toString();
         String Phone = rtPhone.getText().toString();
         String Role = spinnerRole.getSelectedItem().toString();
+        String email = etRegEmail.getText().toString();
 
         User user=new User(Name,Phone,Role);
         VaaradhiDbRef.push().setValue(user);
@@ -90,4 +91,5 @@ public class RegisterActivity extends AppCompatActivity {
             });
         }
     }
+
 }
