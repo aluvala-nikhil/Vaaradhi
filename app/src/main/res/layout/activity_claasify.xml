@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_wave"
+    android:padding="24dp"
+    tools:context=".LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="16dp"
+            android:gravity="center_horizontal"
+            android:text="Vaaradhi"
+            android:textColor="#FF0000"
+            android:textSize="40sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="16dp"
+            android:gravity="center_horizontal"
+            android:text="Select Type of Role"
+            android:textColor="#ef2022"
+            android:textSize="35sp"
+            android:layout_marginTop="24dp"
+            android:textStyle="italic"/>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLoginOwner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="90dp"
+            android:text="Owner" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLoginWorker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="24dp"
+            android:text="Worker" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
